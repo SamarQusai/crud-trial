@@ -1,0 +1,6 @@
+development:
+  # Configure available database clients. (required)
+  clients:
+    # Defines the default client. (required)
+    default:
+      uri: mongodb://localhost:27017/crud_sample_development?ssl=false&tlsInsecure=true&directConnection=true
